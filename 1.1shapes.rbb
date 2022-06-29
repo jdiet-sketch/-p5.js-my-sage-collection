@@ -1,9 +1,7 @@
 function setup() {
   createCanvas(350, 350);
   strokeWeight(3);
-
 }
-
 function draw() {
   background(255);
   
