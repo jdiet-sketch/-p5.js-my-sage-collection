@@ -1,0 +1,17 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  //background('#424242');
+  //draws a purple circle with no stroke
+  noStroke();
+  fill(139,81,163);
+  ellipse(mouseX,mouseY,50,50);                  
+}
+
+//clears canvas
+function mousePressed() {
+  clear()
+
+}                       
